@@ -1,7 +1,6 @@
-package idusw.springboot.egymall.repository;
+package idusw.springboot.kshmall.repository;
 
-import idusw.springboot.egymall.entity.MemberEntity;
-import idusw.springboot.egymall.model.MemberDto;
+import idusw.springboot.kshmall.entity.MemberEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

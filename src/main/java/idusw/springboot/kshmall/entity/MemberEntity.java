@@ -1,4 +1,4 @@
-package idusw.springboot.egymall.entity;
+package idusw.springboot.kshmall.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

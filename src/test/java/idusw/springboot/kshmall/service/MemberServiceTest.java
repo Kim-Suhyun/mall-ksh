@@ -1,7 +1,7 @@
-package idusw.springboot.egymall.service;
+package idusw.springboot.kshmall.service;
 
-import idusw.springboot.egymall.model.MemberDto;
-import idusw.springboot.egymall.serivce.MemberService;
+import idusw.springboot.kshmall.model.MemberDto;
+import idusw.springboot.kshmall.serivce.MemberService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -18,7 +18,7 @@ public class MemberServiceTest {
         IntStream.rangeClosed(1, 10).forEach(i -> {
             MemberDto dto = MemberDto.builder()
                     .id("id-" + i)
-                    .pw("cometrue")
+                    .pw("comtrue")
                     .name("name-" + i)
                     .email("id-" + i + "@induk.ac.kr")
                     .build();
@@ -32,7 +32,7 @@ public class MemberServiceTest {
                 .idx(6L)
                 .build();
         MemberDto ret;
-        if((ret = memberService.readById(dto.getIdx())) != null)
+        if((ret = memberService.readByIdx(dto.getIdx())) != null)
             System.out.println("success" + ret );
         else
             System.out.println("fail");
@@ -52,10 +52,10 @@ public class MemberServiceTest {
     @Test
     public void registerOne() {
         MemberDto dto = MemberDto.builder()
-                    .id("dream")
-                    .pw("cometrue")
-                    .name("passion")
-                    .email("dream" + "@induk.ac.kr")
+                    .id("admin")
+                    .pw("comtrue")
+                    .name("administrator")
+                    .email("admin" + "@induk.ac.kr")
                     .build();
 
         if(memberService.create(dto) > 0)

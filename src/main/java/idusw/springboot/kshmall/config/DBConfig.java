@@ -1,4 +1,4 @@
-package idusw.springboot.egymall.config;
+package idusw.springboot.kshmall.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.jdbc.DataSourceBuilder;

@@ -1,8 +1,8 @@
-package idusw.springboot.egymall.serivce;
+package idusw.springboot.kshmall.serivce;
 
-import idusw.springboot.egymall.entity.MemberEntity;
-import idusw.springboot.egymall.model.MemberDto;
-import idusw.springboot.egymall.repository.MemberRepository;
+import idusw.springboot.kshmall.entity.MemberEntity;
+import idusw.springboot.kshmall.model.MemberDto;
+import idusw.springboot.kshmall.repository.MemberRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

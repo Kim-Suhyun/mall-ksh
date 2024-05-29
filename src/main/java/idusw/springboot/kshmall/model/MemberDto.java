@@ -1,4 +1,4 @@
-package idusw.springboot.egymall.model;
+package idusw.springboot.kshmall.model;
 
 
 import lombok.*;

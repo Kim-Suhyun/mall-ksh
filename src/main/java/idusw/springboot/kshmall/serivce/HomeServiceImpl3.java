@@ -1,4 +1,4 @@
-package idusw.springboot.egymall.serivce;
+package idusw.springboot.kshmall.serivce;
 
 import org.springframework.stereotype.Service;
 

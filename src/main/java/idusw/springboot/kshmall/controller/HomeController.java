@@ -1,12 +1,12 @@
-package idusw.springboot.egymall.controller;
+package idusw.springboot.kshmall.controller;
 
-import idusw.springboot.egymall.serivce.HomeService;
+import idusw.springboot.kshmall.serivce.HomeService;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
-import idusw.springboot.egymall.model.MemberDto;
+import idusw.springboot.kshmall.model.MemberDto;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.Map;
